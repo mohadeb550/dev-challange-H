@@ -1,0 +1,116 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:#F2F2F2;
+}
+
+/* Global Classes ---------- */
+
+.lite-black{
+    color:rgba(0, 0, 0, 0.682);
+}
+.margin-t{
+    margin-top:0;
+}
+.margin-b{
+    margin-bottom:0;
+}
+
+
+/* Main Section Styles --------- */
+
+main{
+    width:1046px;
+    margin:30px auto;
+    display: grid;
+    grid-template-columns: 415px 596px;
+    grid-template-rows: 210px 260px 180px 180px;
+    gap:23px;
+}
+main > div{
+    background-color: white;
+    padding:15px;
+    border-radius: 5px;
+}
+.header{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:23px;
+    
+}
+.man-logo{
+    width:200px;
+    height: 180px;
+    background: url("assets/man-logo.png");
+    background-size:cover;
+    border-radius: 7px;
+}
+.man-info{
+    display: flex;
+    justify-content: space-between;
+}
+.man-info .front-end{
+    margin:0;
+}
+.man-info .name{
+    margin-bottom:3px;
+}
+
+
+/* Progress Bar Div styles -------- */
+
+.progress-bar .skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill p{
+    margin-bottom:0;
+}
+.skill progress{
+    width:240px;
+    height: 12px;
+}
+
+/* 
+Blog section Styles --------- */
+
+.blog{
+    grid-row: span 2;
+}
+
+.blog div{
+    display: flex;
+    justify-content: space-between;
+}
+.blog div img{
+    width:240px;
+    border-radius: 7px;
+}
+.blog h2{
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.79);
+}
+.blog h4{
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.203);
+}
+.blog p{
+    color:rgba(0, 0, 0, 0.692);
+}
+.blog span{
+    color:rgba(37, 37, 232, 0.848);
+}
+
+
+/* Hobby Part Styles ---------- */
+
+
+.hobby-part{
+    grid-row: span 4;
+}
+
+
