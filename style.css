@@ -184,3 +184,63 @@ Blog section Styles --------- */
 .projects button{
     margin-right:8px;
 }
+
+
+
+
+/* REsponsive Styles ==============
+
+Mobile Devices ======= */
+
+
+@media screen and (max-width:576px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 165px;
+        width: 100%;
+        gap:14px;
+        margin:0 auto;
+    }
+    main > div{
+        padding:8px;
+        border-radius: 5px;
+    }
+    .header{
+        grid-column: span 1;
+        gap:8px;
+        font-size: 0.7rem;
+        
+    }
+    .man-logo{
+        width:195px;
+        height: 78px;
+    }
+    .progress-bar{
+        font-size: 0.8em;
+    }
+    .skill progress{
+        width:200px;
+        height: 9px;
+        margin-right: 40px;
+    }
+
+    .blog{
+        font-size: 0.8rem;
+    }
+    .blog div img{
+        width:55%;
+        border-radius: 7px;
+    }
+
+    .hobby-part{
+        font-size: 0.8rem;
+    }
+    .hobby-part .hobby-card img{
+        width:30%;
+        border-radius: 7px;
+    }
+    .projects{
+        grid-column: span 1;
+    }
+   
+}
