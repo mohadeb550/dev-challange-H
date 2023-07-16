@@ -204,6 +204,7 @@ Mobile Devices ======= */
     main > div{
         padding:8px;
         border-radius: 5px;
+        margin:0 4px;
     }
     .header{
         grid-column: span 1;
@@ -214,7 +215,7 @@ Mobile Devices ======= */
     .man-logo{
         width:195px;
         height: 90px;
-        margin-bottom:50px;
+        margin-bottom:52px;
     }
     .progress-bar{
         font-size: 0.8em;
