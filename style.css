@@ -21,6 +21,23 @@ body{
     color:rgba(0, 0, 0, 0.739);
 }
 
+.transparent-btn{
+    background: white;
+    color:#4F4F4F;
+    border:1px solid #4F4F4F;
+    padding:6px 16px;
+    border-radius: 12px;
+    font-size:15px;
+}
+.blue-btn{
+    background:#2F80ED;
+    color:white;
+    padding:8px 16px;
+    border:none;
+    border-radius: 12px;
+    font-size:15px;
+}
+
 
 /* Main Section Styles --------- */
 
@@ -157,3 +174,13 @@ Blog section Styles --------- */
 }
 
 
+/* Projects styles =========== */
+
+
+.projects{
+    grid-column: span 2;
+    grid-row: span 5;
+}
+.projects button{
+    margin-right:8px;
+}
