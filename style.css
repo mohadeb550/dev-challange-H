@@ -16,6 +16,10 @@ body{
 .margin-b{
     margin-bottom:0;
 }
+.thick{
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.739);
+}
 
 
 /* Main Section Styles --------- */
@@ -110,7 +114,46 @@ Blog section Styles --------- */
 
 
 .hobby-part{
-    grid-row: span 4;
+    grid-row: span 14;
+}
+.hobby-part .hobby-card img{
+    width:100%;
+    border-radius: 7px;
+}
+.hobby-card h4{
+    margin-bottom:8px;
+    margin-top:12px;
+}
+.hobby-card p{
+    margin-top:0;
+    margin-bottom:28px;
+}
+
+/* Experiences Section styles ========== */
+
+.experience{
+    grid-row:span 13;
+}
+.experience .exp-card img{
+    width:24%;
+}
+.experience .exp-card{
+    display: flex;
+    gap:20px;
+}
+.exp-card time{
+    color:rgba(0, 0, 0, 0.478);
+    font-size: 14px;
+}
+.exp-card h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(0, 0, 0, 0.654);
+}
+.exp-card p{
+    color:rgba(0, 0, 0, 0.571);
+}
+.card1{
+    margin-bottom:35px;
 }
 
 
