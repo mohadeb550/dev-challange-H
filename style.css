@@ -43,7 +43,7 @@ body{
 
 main{
     width:1046px;
-    margin:30px auto;
+    margin: 0 auto 30px;
     display: grid;
     grid-template-columns: 415px 596px;
     grid-template-rows: 210px 260px 180px 180px;
@@ -199,7 +199,7 @@ Mobile Devices ======= */
         grid-template-rows: 165px;
         width: 100%;
         gap:14px;
-        margin:0 auto;
+        margin:0 auto 30px;
     }
     main > div{
         padding:8px;
@@ -239,8 +239,28 @@ Mobile Devices ======= */
         width:30%;
         border-radius: 7px;
     }
+
+    .experience{
+        font-size: 0.84rem;
+    }
+    .experience .exp-card img{
+        width:23%;
+        height: 23%;
+    }
+    .experience .exp-card{
+        gap:10px;
+    }
+
     .projects{
         grid-column: span 1;
+        font-size: 0.83rem;
     }
+    .projects button{
+        font-size: 0.83rem;
+        margin-right:6px;
+        padding:5px 13px;
+        
+    }
+    
    
 }
