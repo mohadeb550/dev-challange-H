@@ -1,0 +1,7 @@
+[
+    {"name":"Toyota","model":"Camry","year":2022},
+    {"name":"Honda","model":"Civic","year":2021},
+    {"name":"Ford","model":"Mustang","year":2023},
+    {"name":"Chevrolet","model":"Silverado","year":2020},
+    {"name":"BMW","model":"X5","year":2022}
+  ]
